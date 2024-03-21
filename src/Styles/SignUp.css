@@ -1,0 +1,184 @@
+/* font faces */
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(./texts/gilroy/Gilroy-Bold.ttf);
+    font-weight: bold;
+  }
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(./texts/gilroy/Gilroy-Medium.ttf);
+  }
+@font-face {
+    font-family: Gilroy-SemiBold;
+    src: url(./texts/gilroy/Gilroy-SemiBold.ttf);
+  }
+
+
+body{
+    text-align: center;
+    background-color: white;
+}
+.SignUp_name{
+    font-family: Gilroy-Medium;
+    margin-top: 80px;
+    color: #A0B1C0;
+    font-size: 16px;
+    /* color: rgb(184, 183, 183); */
+}
+.google_and_apple{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.google{
+    background-color: #005AE2;
+    font-family: Gilroy-Medium;
+    color: white;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    border-radius: 3px;
+}
+.google_img{
+    width: 20px;
+    margin-top: 1px;
+}
+.Apple{
+    background-color: #005AE2;
+    font-family: Gilroy-Medium;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    border-radius: 3px;
+    padding: 10px 15px 10px 15px;
+}
+.Apple_img{
+    width: 20px;
+    margin-top: -2px;
+}
+.lineOne{
+    border-bottom: 1px solid #A0B1C0;
+    width: 200px;
+    justify-content: center;
+}
+.lineTwo{
+    border-bottom: 1px solid #A0B1C0;
+    width: 200px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Or_Axis{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+}
+.Or_word{
+    position: absolute;
+    margin-top: 10px;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    color: #5C6F7F;
+}
+
+.Username{
+    width: 400px;
+    padding: 10px;
+    margin-top: 50px;
+    color: #A0B1C0 !important;
+    border: 2px solid #005AE2;
+    font-family: Gilroy-Medium;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.Email{
+    width: 400px;
+    padding: 10px;
+    margin-top: 25px !important;
+    color: #A0B1C0 !important;
+    border: 2px solid #005AE2;
+    font-family: Gilroy-Medium;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.Password{
+    width: 400px;
+    padding: 10px;
+    margin-top: 25px;
+    color: #A0B1C0 !important;
+    border: 2px solid #005AE2;
+    font-family: Gilroy-Medium;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.RetypePassword{
+    width: 400px;
+    padding: 10px;
+    margin-top: 25px;
+    color: #A0B1C0 !important;
+    border: 2px solid #005AE2;
+    font-family: Gilroy-Medium;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.See_password{
+    position: absolute;
+    margin-top: 38px;
+    margin-left: -35px;
+}
+.Discription{
+    font-family: Gilroy-Medium;
+    margin-top: 10px;
+    margin-left: -40px;
+    color:#A0B1C0;
+    font-size: 12px;
+}
+::placeholder {
+    color:#A0B1C0;
+    opacity: 1;
+}
+.SignUp_Button{
+    background-color:#005AE2;
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    border-radius: 20px;
+    color: white;
+    width: 420px;
+    border: none;
+    padding: 13px;
+    margin-top: 20px;
+}
+.Log_In{
+    color: #005AE2;
+    font-family: Gilroy-Medium;
+    text-decoration: none;
+}
+.footer_question{
+    font-family: Gilroy-Medium;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer_paragraph{
+    margin-top: 20px;
+    padding-bottom: 150px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* inline-size: 100px; */
+    text-align: center;
+}
+.text_effect{
+    color: gray;
+    font-family: Gilroy-Medium;
+    font-weight: 200;
+}
+.error{
+    color: red;
+    margin-top: 30px;
+}

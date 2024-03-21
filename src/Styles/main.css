@@ -1,0 +1,929 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(./texts/gilroy/Gilroy-Bold.ttf);
+    font-weight: bold;
+  }
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(./texts/gilroy/Gilroy-Medium.ttf);
+  }
+@font-face {
+    font-family: Gilroy-SemiBold;
+    src: url(./texts/gilroy/Gilroy-SemiBold.ttf);
+  }
+/* This is the hero navigation css */
+body{
+    background: linear-gradient(to right, #de2f0307, #c1be071c);
+    overflow-x: hidden;
+}
+.hero_section{
+    display: flex;
+    gap: 150px;
+    margin-top: 18px;
+    margin-left: 18px;
+    font-family: Gilroy-Medium;
+    width: 100%;
+    justify-content: center;
+}
+.scissors{
+    display: flex;
+    font-family:Gilroy-Bold;
+    font-size: 24px;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Hero_Logo{
+    width: 24px;
+    height: 24px;
+}
+.Hero_Line{
+    height: 24px;
+}
+.Hero_Nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    margin-top: 15px;
+}
+.hero_features{
+    margin-left: 10px;
+}
+ul{
+    list-style-type: none;
+}
+.all_navigator{
+    display: flex;
+    gap: 150px;
+}
+
+.hero_button{
+    display: flex;
+    /* gap: 20px; */
+}
+.hero_url{
+    color: blue;
+}
+.hero_login{
+    border: none;
+    background-color: #ffffff00;
+    color: blue;
+    font-size: 16px;
+    width: 50%;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.hero_try_for_free{
+    color: white;
+    background-color: #0065FE;
+    border-radius: 100px;
+    border: none;
+    padding: 12px 24px 12px 24px;
+    font-size: 16px;
+    height: 44px;
+    width: 242px;
+    margin-left: 19px; 
+    margin-top: 0px;
+
+}
+/* The end of the hero navigator section */
+
+/* this is the beginning of the central text in the CTA */
+.content_for_central{
+    margin-top: 90px;
+    line-height: 100px;
+}
+.Bolder_Text{
+    font-family: Gilroy-Bold;
+    font-size: 48px;
+    text-align: center;
+}
+.smaller_text{
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+}
+.url_underline{
+    position: absolute;
+    margin-left: -250px;
+    margin-top: 75px;
+}
+.url_text{
+    color: #005AE2;
+}
+.button_signup_learnMore{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: Gilroy-SemiBold;
+    margin-top: 60px;
+}
+.button_signup{
+    /* height: 44px;
+    width: 142px; */
+    left: 0px;
+    top: 0px;
+    border-radius: 100px;
+    padding: 12px 34px 12px 34px;
+    border: none;
+    background-color: #0065FE;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.button_learnmore{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: #0065FE;
+    font-size: 16px; 
+    font-weight: bold;
+}
+/* This is the end of the text in the CTA */
+
+/* this is the beginning of the css for the container in the CTA */
+.background_color{
+    background-color: black;
+}
+.transformation_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-image: linear-gradient(to right, #E2E9F0 ,
+     rgb(255, 255, 255)); */
+     background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    width: 480px;
+    height: 224px;
+    border: 0.5px solid #005AE2;
+    backdrop-filter: blur(106px);
+    border-radius: 24px;
+    left: calc(62% - 868px/2 + 98px);
+    top: 631px;
+}
+.the_vectors{
+    margin-left: 50px;
+}
+.vector_one{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 251.2px;
+    object-fit: contain;
+    top: 620.63px;
+    margin-left: -170px;
+}
+.vector_two{
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 16px;
+}
+#arrow{
+    /* flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: -39px !important; */
+    /* background-color: black; */
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.vector_three{
+    height: 33.33333206176758px;
+    width: 73.33333587646484px;
+    left: 3.3333282470703125px;
+}
+.content_transform{
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+/* This is the nd of the container for the CTA container */
+
+/* The 3D like section */
+.elipse{
+    position: absolute;
+    height: 49px;
+    top: 951px;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 20;
+}
+.rectangle{
+    position: absolute;
+    height: 93px;
+    left: 0px;
+    top: 931px;
+    width: 100%;
+}
+/* The end of the 3D area */
+
+/* This is the frame for the metrics */
+.Frame{
+    background-color: #F9FBFD;
+    display: flex;
+    position: relative;
+    width: 1446px;
+    height: 220px;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 455px;
+    width: 100%;
+    /* z-index: 33px; */
+}
+.actual_metric{
+    display: flex;
+    text-align: center;
+    gap: 90px;
+    margin-top: 60px;
+}
+.bold_metric{
+    font-family: Gilroy-Medium;
+    font-size: 32px;
+}
+.small_metric{
+    font-family: Gilroy-Medium;
+    margin-top: 10px;
+    text-align:left;
+}
+.possibilities{
+    color: #005AE2;
+}
+.metric_text{
+    font-family:Gilroy-Bold ;
+    font-size: 40px;
+    margin-top: 60px;
+    text-align:left;
+}
+/* The metrics frame ends here */
+
+/* the why scissors style starts here  */
+.whole_why_content{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 100px;
+    line-height: 30px;
+    background-color: white;
+    height: 100%;
+    text-align: left;
+}
+.why_content{
+    display: flex;
+    gap: 20px;
+}
+.why_head{
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: Gilroy-Bold;
+}
+.scissors_text{
+    color: #005AE2;
+}
+.actual_why_content{
+    font-family: Gilroy-Medium;
+    inline-size: 370px;
+    margin-left: 40px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.URL, .QR, .custom, .data{
+    font-family: Gilroy-SemiBold;
+    font-size: 32px;
+}
+.URL_content, .QR_content, .custom_content, .data_content{
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    inline-size: 350px;
+    margin-top: 15px;
+}
+.whole_QR, .whole_data{
+    margin-top: 50px;
+}
+.whole_URL, .whole_custom{
+    margin-top: 1px;
+}
+.why_img{
+    background-color: #3284ff39;
+    padding: 10px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+    width: 25px;
+}
+/* The why scissors style ends here */
+
+/* The price perfect section */
+.the_whole_plan{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    text-align: left;
+}
+.whole_pricing{
+    background-color: white;
+    padding-bottom: 150px;
+}
+.price_heading{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 180px;
+}
+.heading_word{
+    font-size: 40px;
+    font-family: Gilroy-Bold;
+}
+.price_highlight{
+    color: #005AE2;
+}
+.price_content{
+    text-align: center;
+    font-family: Gilroy-Medium;
+    line-height: 25px;
+    margin-top: 15px;
+}
+.basic_plan_container{
+    background: #FFFFFF;
+    border: 0.4px solid #005AE2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    width: 299px;
+    height: 455px;
+    padding-left: 70PX;
+}
+.professional_container{
+    background: #FFFFFF;
+    border: 0.4px solid #005AE2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    margin-top: -75px;
+    color: white;
+    width: 360px;
+    height: 607px;
+    padding-left: 70PX;
+    background: linear-gradient(180deg, 
+    #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 12px;
+}
+.teams_plan_container{
+    background: #FFFFFF;
+    border: 0.4px solid #005AE2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    width: 299px;
+    height: 455px;
+    padding-left: 70PX;
+}
+.basic_word, .professional_word, .teams_word{
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.professional_word{
+    margin-top: 100px;
+}
+.free_content{
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    line-height: 40px;
+    margin-top: 30px;
+}
+.month_content{
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    line-height: 40px;
+    margin-top: 30px;
+}
+.free_word, .month_word{
+    font-size: 40px;
+    font-family: Gilroy-Bold;
+}
+.first_thick, .second_thick, .third_thick, .fourth_thick, .fifth_thick{
+    display: flex;
+    gap: 15px;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+}
+.vector_four, .vector_five, .vector_six{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.whole_thick{
+    line-height: 45px;
+}
+.price_button{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 80px;
+}
+.get_button{
+    padding: 20px;
+    background-color: white;
+    border: none;
+    border: 0.5px solid #005AE2;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 12px;
+    color: #0065FE;
+    border-radius: 100px;
+    width: 200px;
+}
+.select_button{
+    padding: 20px;
+    background-color: #005AE2;
+    border: none;
+    border: 0.5px solid #005AE2;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 12px;
+    color: white;
+    border-radius: 100px;
+    width: 200px;
+}
+/* the pricing section ends here */
+
+/* the url form starts here */
+.url_form_background{
+    background-color: #1E3448;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /* margin-top: 150px; */
+}
+.actual_form{
+    width: 476px;
+    height: 355px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.url_input{
+    width: 80%;
+    height: 20px;
+    border: 0.5px solid #3284FF;
+    font-family: Gilroy-Medium;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #3284FF;
+}
+.url_input::placeholder {
+    color: var(--placeholder-color);
+  }
+
+.alias_input{
+    width: 155px;
+    height: 20px;
+    border: 0.5px solid #3284FF;
+    font-family: Gilroy-Medium;
+    background-color: white;
+    padding: 12px 25px 12px 25px ;
+    border-radius: 15px;
+    font-size: 14px;
+    font-size: 12px;
+}
+.alias_input::placeholder {
+    color: var(--placeholder-color);
+  }
+.domain_input{
+    width: 200px;
+    margin-left: 10px;
+    height: 45px;
+    border: 0.5px solid #3284FF;
+    font-family: Gilroy-Medium;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 14px;
+    padding-left: 20px;
+    color: #3284FF;
+    font-size: 12px;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+  }
+.floated_input{
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+    margin-left: 17px;
+    z-index: 999;
+}
+.arrow_down_img{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: -35px;
+}
+.trim_url_button{   
+    width: 422px;
+    height: 48px;
+    margin-left:30px;
+    margin-top: 20px;
+    border: none;
+    font-family: Gilroy-SemiBold;
+    background-color: #005AE2;
+    color: white;
+    border-radius: 100px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+}
+.text_content_form{
+    text-decoration: none;
+    font-family: Gilroy-Medium;
+    color: #4991FF;  
+    
+}
+.form_text{
+    inline-size: 400px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.vector_A, .vector_B, .vector_C{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: -750px;
+    opacity: 0.4;
+}
+.vector_C{
+    height: 480px;
+    width: 500px;
+}
+.vector_A{
+    height: 480px;
+    width: 650px;
+    /* margin-left: -150px; */
+    opacity: 0.2;
+}
+.vector_B{
+    height: 480px;
+    width: 420px;
+}
+.vector_D, .vector_E{
+    position: absolute; 
+    opacity: 0.4;
+}
+
+.lower_vector_form{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -200px;
+    /* margin-left: -490px; */
+    
+}
+.vector_E{
+    margin-left: 30px;
+    margin-top: 0px;
+}
+.vector_D{
+    margin-left: 30px;
+    margin-top: -50px;
+}
+/* the url form ends here */
+
+/* The FAQ styling starts here */
+.questioning_section{
+    background-color: white;
+    padding-bottom: 300px;
+}
+.vector_F, .vector_G, .vector_H{
+    position: absolute;
+    margin-left: -750px;
+
+}
+.FAQ_head{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 60px;
+}
+.FAQ_word{
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+}
+.whole_FAQ_content{
+    text-align: center;
+    margin-top: 100px;
+}
+.how_FAQ{
+    display: flex;
+    justify-content: center;
+    gap: 480px;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+}
+.minus{
+    height: 2px;
+}
+.how_FAQ_content{
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    inline-size: 790px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: left;
+    line-height: 30px;
+}
+.question_one{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    margin-top: 25px;
+}
+.question_two{
+    display: flex;
+    justify-content: center;
+    gap: 295px;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    margin-top: 25px;
+}
+.question_three{
+    display: flex;
+    justify-content: center;
+    gap: 210px;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    margin-top: 25px;
+}
+.question_four{
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    margin-top: 25px;
+}
+.question_five{
+    display: flex;
+    justify-content: center;
+    gap: 310px;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    margin-top: 25px;
+}
+.question_six{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    margin-top: 25px;
+    text-align: left;
+}
+.question_six_plus, .question_eight_plus{
+    width: 25px;
+    height: 25px;
+}
+.question_seven{
+    display: flex;
+    justify-content: center;
+    gap: 415px;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    margin-top: 25px;
+}
+.question_eight{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.plus{
+    margin-left: 10px;
+}
+.underline{
+    margin-top: 40px;
+}
+.FAQ_vector_one,.FAQ_vector_two,.FAQ_vector_three{
+    position: absolute;
+}
+.FAQ_vector_three{
+    margin-top: -55px;
+}
+.FAQ_vector_two{
+    margin-top: 20px;
+}
+.FAQ_vectors{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -150px;
+}
+/* the FAQ styling here */
+
+/* The revolutioning styling starts here */
+.whole_revolution{
+    background-color: #1E3448;
+    position: relative;
+    /* margin-top: 250px; */
+    width: 100%;
+    height: 400px;
+    left: 0px;
+}
+.uppervector_one,.uppervector_two,.uppervector_three{
+    position: absolute;
+    margin-left: -750px;
+}
+.uppervector_four,.uppervector_five,.uppervector_six{
+    position: absolute;
+}
+.uppervector_five{
+    margin-top: 50px;
+}
+.uppervector_six{
+    margin-top: 110px;
+}
+.lower_vector_revolution{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -105px;
+}
+
+.revolution_content{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.revolution_word{
+    margin-top: 150px;
+    font-family: 'Gilroy-Bold';
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.get_started_button{
+    width: 200px;
+    height: 48px;
+    margin: auto;
+    margin-top: 50px;
+    border: none;
+    font-family: Gilroy-SemiBold;
+    background-color: #005AE2;
+    color: white;
+    border-radius: 100px;
+    font-size: 16px;
+}
+
+/* footer_section  */
+.main_footer{
+    background-color: white;
+   height: 75.5vh;
+   /* padding-bottom: 90px; */
+}
+.footer_logo_scissors{
+    display: flex;
+    gap: 10px;
+}
+.footer_scissors_word{
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+}
+.social_media_logo{
+    display: flex;
+    gap: 20px;
+    width: 21.62px;
+    height: 21.56px;
+    margin-top: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    gap: 70px;
+    text-align: left;
+}
+.footer_vector_one,.footer_vector_two{
+    position: absolute;
+}
+
+.actual_scissor_logo{
+    width: 24px;
+    height: 24px;
+}
+.actual_scissor_line{
+    height: 24px;
+}
+.sub_footer, .sub_footer_two, .sub_footer_three, .sub_footer_four{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.sub_footer_four{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 26px;
+}
+.why_head_footer, .resources_head_footer, 
+.solution_head_footer, .features_head_footer, .products_head_footer,
+.legal_head_footer, .company_head_footer{
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.features_head_footer{
+    margin-top: -20px;
+}
+.Footer_terms{
+    display: flex;
+    gap: 10px;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    justify-content: flex-end;
+    margin-right: 80px;
+    margin-top: 0px;
+    margin-left: auto;
+    padding-bottom: 20px;
+}
+.c_scissors{
+    display: flex;
+    gap: 10px;
+}
+.c_img{
+    width: 15px;
+    height: 15px;
+}
+.line_footer{
+    height: 16px;
+}
+.vector_A_footer, .vector_B_footer, .vector_C_footer{
+    position: absolute; 
+}
+
+.vector_D_footer, .vector_E_footer, .vector_F_footer{
+    position: absolute; 
+    margin: auto;
+}
+.vector_D_footer{
+    margin-top: -55px;
+}
+.vector_F_footer{
+    margin-top: 25px;
+}
+.vector_A_footer{
+    margin-top: 130px;
+}
+.vector_B_footer{
+    margin-top: 245px;
+}
+.vector_C_footer{
+    margin-top: 320px;
+}
+.footer_vector_two{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+     margin-top: -235px;
+    margin-left: auto;
+    text-align: left;
+}
