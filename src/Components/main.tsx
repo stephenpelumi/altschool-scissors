@@ -88,7 +88,7 @@ function Main() {
         {/* The logo */}
         <div className="scissors">
           <img className="Hero_Logo" src={Hero_Logo} alt="" />
-          <img className="Hero_Line" src={Hero_Line} alt="" />
+          <img  className="Hero_Line" src={Hero_Line} alt="" />
           <div>SCISSORS</div>
         </div>
         {/* Logo ends here */}
